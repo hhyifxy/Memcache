@@ -1,4 +1,5 @@
 <?php
+
 $memcache = new Memcache();
 $memcache->addServer('localhost', 11211);
 $memcache->connect('localhost', 11211);
